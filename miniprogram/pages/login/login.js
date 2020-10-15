@@ -1,4 +1,4 @@
-// pages/mine/mine.js
+// pages/login/login.js
 Page({
 
   /**
@@ -12,13 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
-    const app=getApp();
-    if(!app.globalData.is_login){
-      wx.navigateTo({
-        url: '../login/login',
-      })
-    }
+
   },
 
   /**
