@@ -1,25 +1,39 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/search/search",
+    "pages/journey/journey",
+    "pages/foodorder/foodorder",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "12306",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white", 
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "查询"
+      },
+      {
+        "pagePath": "pages/journey/journey",
+        "text": "行程"
+      },
+      {
+        "pagePath": "pages/foodorder/foodorder",
+        "text":"订餐"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text":"我"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
