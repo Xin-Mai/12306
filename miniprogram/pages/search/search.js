@@ -8,24 +8,30 @@ Page({
   data: {
     region1:['湖北省','武汉市','洪山区'],
     region2:['湖北省','武汉市','洪山区'],
-    date: '2016-09-01',
-
-    bindRegionChange1: function (e) {
-      console.log('picker发送选择改变，携带值为', e.detail.value)
-      this.setData({
-        region1: e.detail.value
-      })
-    },
-
-    bindDateChange2: function(e) {
-      console.log('picker发送选择改变，携带值为', e.detail.value)
-      this.setData({
-        date: e.detail.value
-      })
-    }
-
+    date: '2020-10-22',
   },
 
+  bindRegionChange1: function (e) {
+     this.setData({
+      region1 :  e.detail.value
+    });
+  },
+
+  bindRegionChange2: function(e) {
+    this.setData({
+      region2: e.detail.value
+    });
+  },
+
+  bindDateChange:function(e){
+    this.setData({
+      date:e.detail.value
+      }
+    )
+  },
+  search:function(e){
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */

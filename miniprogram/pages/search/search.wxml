@@ -9,7 +9,7 @@
     </view>
   </picker>
 
-  <button>交换按钮</button>
+  <button bindtap="search">交换按钮</button>
 
   <picker mode="region" bindchange="bindRegionChange2" value="{{region2}}" custom-item="{{customItem}}">
     <view class="picker2">
@@ -17,7 +17,7 @@
     </view>
   </picker>
 
-  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+  <picker mode="date" value="{{date}}" start="2020-10-22" end="2030-09-01" bindchange="bindDateChange">
     <view class="picker">
       出发时间: {{date}}
     </view>
