@@ -1,6 +1,56 @@
 // pages/mine/mine.js
 Page({
 
+  order:function(options){
+    wx.navigateTo({
+      url: '../order/order',
+    })
+  },
+
+  ticket:function(options){
+    wx.navigateTo({
+      url: '../ticket/ticket',
+    })
+  },
+
+  passenger:function(options){
+    wx.navigateTo({
+      url: '../passenger/passenger',
+    })
+  },
+
+  password_change:function(options){
+    wx.navigateTo({
+      url: '../password_change/password_change',
+    })
+  },
+
+  account_tied:function(options){
+    wx.navigateTo({
+      url: '../account_tied/account_tied',
+    })
+  },
+
+  search_seat:function(options){
+    wx.navigateTo({
+      url: '../search_seat/search_seat',
+    })
+  },
+
+  search_more:function(options){
+    wx.navigateTo({
+      url: '../search_more/search_more',
+    })
+  },
+
+  more_service:function(options){
+    wx.navigateTo({
+      url: '../more_service/more_service',
+    })
+  },
+
+
+
   /**
    * 页面的初始数据
    */

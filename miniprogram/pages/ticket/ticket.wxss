@@ -1,0 +1,41 @@
+/* pages/ticket/ticket.wxss */
+.blank{
+  display: flex;
+  height: 60px
+}
+
+.duihuan{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  justify-content:center;
+  margin: auto
+}
+
+.hu{
+  width: 6px;
+}
+
+.center{
+  display: flex;
+  color: dodgerblue;
+  font-size: x-large;
+  justify-content: center;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+}
+
+.bian{
+  display: flex;
+  width: 20px
+}
+
+.ticket_image{
+  display:flex;           
+  justify-content: center;        
+  align-items:center;
+}

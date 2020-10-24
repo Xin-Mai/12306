@@ -1,0 +1,18 @@
+<!--pages/ticket/ticket.wxml-->
+<view class='main'>
+  <view class='blank'></view>
+  <view class='duihuan'>
+    <view class='left'>您可兑换价值</view>
+    <view class='hu'></view>
+    <view class='center'>0</view>
+    <view class='hu'></view>
+    <view class="right">元的餐饮/特产</view>
+  </view>
+  <view class='image'>
+    <view class='bian'></view>
+    <view class="ticket_image">
+    <image src="/images/ticket.png" mode="aspectFit"></image>
+    </view>
+    <view class='bian'></view>
+  </view>
+</view>

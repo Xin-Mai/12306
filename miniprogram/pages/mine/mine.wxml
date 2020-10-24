@@ -1,2 +1,84 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class='list'>
+  <view class='identity'>
+    <view class='info'>
+      <view class='name'>name</view>
+      <view class='id'>id</view>
+    </view>
+    <view class='func' bindtap="exit">退出</view>    
+  </view>
+
+  <view class="blank"></view>
+
+  <view class='food'>
+    <view class='order' bindtap="order">
+      <view class='dingdan'>餐饮订单</view>
+      <view class='arrow'>></view>
+    </view>
+    <view class='ticket' bindtap="ticket">
+      <view class='quan'>我的餐饮券</view>
+      <view class='arrow'>></view>
+    </view>
+  </view>
+
+  <view class="blank"></view>
+
+  <view class='main'>
+    <view class='passenger' bindtap="passenger">
+      <view class='chengcheren'>乘车人</view>
+      <view class='arrow'>></view>
+    </view>
+
+    <view class='depart_line'></view>
+
+    <view class='password_change' bindtap="password_change">
+      <view class='xiugaimima'>修改密码</view>
+      <view class='arrow'>></view>
+    </view>
+
+    <view class='depart_line'></view>
+
+    <view class='tied_account' bindtap="account_tied">
+      <view class='bangdingzhanghao'>绑定账号</view>
+      <view class='who'>
+        <view class='weixin_name'>weixin_name</view>
+        <view class='arrow'>></view>
+      </view>
+    </view>
+
+    <view class='depart_line'></view>
+
+    <view class='search_seat' bindtap="search_seat">
+      <view class='xiweibiangengchaxun'>席位变更查询</view>
+      <view class='what1'>
+        <view class='extend1'>查席位变更后的新的席位信息</view>
+        <view class='arrow'>></view>
+      </view>
+    </view>
+
+    <view class='depart_line'></view>
+
+    <view class='search_more' bindtap="search_more">
+      <view class='gengduochaxun'>更多查询</view>
+      <view class='what2'>
+        <view class='extend2'>查车次，预售及起售</view>
+        <view class='arrow'>></view>
+      </view>
+    </view>
+
+    <view class='depart_line'></view>
+
+    <view class='more_service' bindtap="more_service">
+      <view class='gengduofuwu'>更多服务</view>
+      <view class='what3'>
+        <view class='extend3'>失物查找</view>
+        <view class='arrow'>></view>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+
+
+

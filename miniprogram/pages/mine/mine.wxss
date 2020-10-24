@@ -1,1 +1,214 @@
 /* pages/mine/mine.wxss */
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.identity{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  height:60px;
+  justify-content:center;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width:70%;
+  justify-content:space-between;
+  margin:auto
+}
+
+.func{
+  display: flex;
+  color:green;
+  margin: auto
+}
+
+.blank{
+  height:15px
+}
+
+.food{
+  display: flex;
+  flex-direction: column;
+  height:80px;
+  justify-content: space-between;
+}
+
+.order{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px                
+}
+
+.ticket{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.arrow{
+  color:gray;
+  margin: auto
+}
+
+.dingdan{
+  width:80%;
+  margin: auto
+}
+
+.quan{
+  width:80%;
+  margin: auto
+}
+
+.depart_line{
+  height:2px
+}
+
+.passenger{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.chengcheren{
+  width:80%;
+  margin: auto
+}
+
+.password_change{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.xiugaimima{
+  width:80%;
+  margin: auto
+}
+
+.tied_account{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.bangdingzhanghao{
+  width:20%;
+  margin: auto
+}
+
+.who{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+  width:72%
+}
+
+.weixin_name{
+  width:68%;
+  margin: auto
+}
+
+.search_seat{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.xiweibiangengchaxun{
+  width:30%;
+  margin: auto;
+}
+
+.what1{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+  width:63%
+}
+
+.extend1{
+  width:65%;
+  margin: auto;
+  font-size: x-small;
+  color: darkgray
+}
+
+.search_more{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.gengduochaxun{
+  width:20%;
+  margin: auto
+}
+
+.what2{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+  width:72%
+}
+
+.extend2{
+  width:68%;
+  margin: auto;
+  font-size: x-small;
+  color: darkgray
+}
+
+.more_service{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+}
+
+.gengduofuwu{
+  width:20%;
+  margin: auto
+}
+
+.what3{
+  display: flex;
+  flex-direction: row;
+  background:white;
+  justify-content:center;
+  height:39px;
+  width:72%
+}
+
+.extend3{
+  width:68%;
+  margin: auto;
+  font-size: x-small;
+  color: darkgray
+}
