@@ -1,2 +1,28 @@
 <!--pages/journey/journey.wxml-->
-<text>pages/journey/journey.wxml</text>
+<view id="login" hidden="{{is_login}}">
+  <login></login>
+</view>
+<view id="journey" class="container" hidden="{{!is_login}}">
+  <view class="row">
+    <text class="miniTitle">我的行程</text>
+    <navigator class="miniNavigator" url="/pages/history/history">历史行程></navigator>
+  </view>
+  <view class="card"><text>暂无历史行程</text></view>
+  <view class="container">
+    <navigation-bar>
+      <view class="row">
+        <image src="/images/icon/order.png" mode="aspectFit"/>
+        <text class="title">好友的行程</text>
+        <image src="/images/icon/arrow-right.png" mode="aspectFit"/>
+      </view>
+    </navigation-bar>
+    <navigation-bar>
+      <view class="row" bindtap="scan">
+      <image class="" src="/images/icon/scanning.png" mode="aspectFit"/>
+      <text class="title">扫一扫我的火车票</text>
+      <text class="miniTitle">关注列车动态</text>
+      <image src="/images/icon/arrow-right.png" mode="aspectFit"/>
+      </view>
+    </navigation-bar>
+  </view>
+</view>

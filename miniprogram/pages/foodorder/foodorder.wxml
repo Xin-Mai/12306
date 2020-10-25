@@ -1,2 +1,1 @@
-<!--pages/foodorder/foodorder.wxml-->
-<text>pages/foodorder/foodorder.wxml</text>
+<image mode="aspectFit" src="/images/food.jpg"/>
