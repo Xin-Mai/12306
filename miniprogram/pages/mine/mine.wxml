@@ -1,6 +1,8 @@
 <!--pages/mine/mine.wxml-->
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+<view id="login">
+  <login></login>
+</view>
 <view class='list'>
   <view class='identity'>
     <view class='info'>
@@ -84,13 +86,3 @@
 
 
 
-=======
-<view id="login">
-  <login></login>
-</view>
->>>>>>> main
-=======
-<view id="login">
-  <login></login>
-</view>
->>>>>>> main
