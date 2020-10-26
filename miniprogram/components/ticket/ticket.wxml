@@ -3,5 +3,5 @@
  <view>始发站：{{from}}</view>
  <view>终点站：{{to}}</view>
  <view>起始时间：{{fromTime}}</view>
- <button>我买了</button>
+ <button bindtap="buy">我买了</button>
 </view>

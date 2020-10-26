@@ -9,7 +9,7 @@
     </view>
   </picker>
 
-  <button >交换按钮</button>
+  <button bindtap="change">↑↓</button>
 
   <picker mode="region" bindchange="bindRegionChange2" value="{{region2}}" custom-item="{{customItem}}">
     <view class="picker2">
@@ -23,11 +23,11 @@
     </view>
   </picker>
 
-  <checkbox>只看高铁/动车</checkbox>
-  <checkbox>只看学生票</checkbox>
+  <radio>只看高铁/动车</radio>
+  <radio>只看学生票</radio>
 
   <button bindtap="search">查询</button>
 
-  <button>联系客服按钮</button>
+  <button>联系客服</button>
   <slot></slot>
 </view>

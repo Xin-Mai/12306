@@ -1,0 +1,16 @@
+<!--miniprogram/pages/buy.wxml-->
+<view>姓名</view>
+<input placeholder="请输入姓名"></input>
+<view>身份证号</view>
+<input placeholder="请输入身份证号"></input>
+
+<radio-group bindchange="radioChange">
+        <label  wx:for="{{items}}" wx:key="{{item.value}}">
+         <radio value="{{item.value}}" checked="true"/>
+          <view class="weui-cell__bd">{{item.name}}</view>
+        </label>
+</radio-group>
+
+
+<button bindtap="buyFalse">取消按钮</button>
+<button bindtap="buySuccess">购买按钮</button>

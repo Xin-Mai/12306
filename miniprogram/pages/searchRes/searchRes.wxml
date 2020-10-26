@@ -1,4 +1,7 @@
 <!--pages/searchRes/searchRes.wxml-->
 <view>
-  <ticket from = "{{ticket.from}}" to = "{{ticket.to}}" fromTime = "{{ticket.fromTime}}" bindtap="buy"></ticket>
+  <view wx:for="{{ticket}}">
+ <ticket from =  "{{item.from}}" to = "{{item.to}}" fromTime = "{{item.fromTime}}" bindtap="buy"></ticket>
+  </view>
+ 
 </view>

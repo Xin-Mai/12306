@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ticket:{
+    ticket:[{
       from : '北京',
       to : '上海',
       fromTime : '21:21',
@@ -16,7 +16,20 @@ Page({
       ifHard : true,
       ifSoft : true,
       ifNoSeat : true
+    },
+    {
+      from : '北京',
+      to : '上海',
+      fromTime : '22:21',
+      toTime : '10:21',
+      Id : 'D706',
+      time : '12小时0分钟',
+      ifSeat : true,
+      ifHard : true,
+      ifSoft : true,
+      ifNoSeat : true
     }
+  ]
   },
   buy: function(e){
     
