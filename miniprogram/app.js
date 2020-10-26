@@ -6,5 +6,11 @@ App({
   },
   onLaunch: function () {
     
+  },
+  setLogin:function(state){
+    this.globalData.is_login=state;
+    /*wx.showToast({
+      title: state.toString(),
+    })*/
   }
 })

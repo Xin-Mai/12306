@@ -1,6 +1,6 @@
 <!--pages/journey/journey.wxml-->
 <view id="login" hidden="{{is_login}}">
-  <login></login>
+  <login bind:loginSuccess="loginSuccess"></login>
 </view>
 <view id="journey" class="container" hidden="{{!is_login}}">
   <view class="row">
