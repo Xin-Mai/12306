@@ -1,4 +1,4 @@
 <!--pages/mine/mine.wxml-->
-<view id="login">
+<view id="login" hidden="{{is_login}}">
   <login></login>
 </view>

@@ -5,11 +5,13 @@
     <view class="input"><text>密码</text><input placeholder="密码" password="true"/></view>
     <view class="input"><text>证件号</text><input placeholder="身份证号码后四位"/></view>
   </form>
+  <view hidden="{{warn}}" class="warn">{{message}}</view>
   <view>
-    <button class="roundButton">登 录</button>
+    <button class="roundButton" bindtap="login">登 录</button>
     <view class="group">
-      <button class="miniButton" size="mini">注册</button>
-      <button class="miniButton" size="mini">忘记密码</button>
+      <navigator class="miniButton" url="/pages/signup/signup">注册</navigator>
+      <navigator class="rightMiniButton" url="/pages/forgetpw/forgetpw">忘记密码</navigator>
     </view>
   </view>
 </view>
+

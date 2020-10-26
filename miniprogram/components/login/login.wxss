@@ -12,6 +12,11 @@
     height: 40px;
   }
 
+  .warn{
+    font-size: small;
+    color: red;
+    font-weight: lighter;
+  }
   .input text{
     height: 40px;
   }
@@ -42,7 +47,14 @@
     font-size: small;
     font-weight: lighter;
     color: dodgerblue;
-    width: 50%;
+    width: 100%;
+  }
+
+  .rightMiniButton{
+    font-size: small;
+    font-weight: lighter;
+    color: dodgerblue;
+    min-width: max-content;
   }
 
   .roundButton{

@@ -14,8 +14,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.login=this.selectComponent("#login")
-   
+    this.login=this.selectComponent("#login");
+    console.log("mine onload");
   },
 
   /**
@@ -29,7 +29,10 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-   
+    if(this.is_login!=getApp().globalData.is_login){
+      this.setData({is_login:getApp().globalData.is_login});
+      this.onLoad();
+    }
   },
 
   /**
