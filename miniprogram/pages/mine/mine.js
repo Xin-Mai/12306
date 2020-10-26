@@ -1,6 +1,13 @@
 // pages/mine/mine.js
 Page({
 
+  data: {
+    app:getApp(),
+    is_login:getApp().globalData.is_login,
+    login:null,
+
+  },
+
   order:function(options){
     wx.navigateTo({
       url: '../order/order',
@@ -25,6 +32,13 @@ Page({
     })
   },
 
+  loginSuccess:function(state){
+    this.setData({is_login:true});
+    console.log("trigger"+this.data.is_login);
+    if(this.data.is_login){
+      this.onLoad();
+    }
+  },
   account_tied:function(options){
     wx.navigateTo({
       url: '../account_tied/account_tied',

@@ -1,7 +1,8 @@
 <!--pages/mine/mine.wxml-->
 <view id="login" hidden="{{is_login}}">
-  <login></login>
+  <login  bind:loginSuccess="loginSuccess"></login>
 </view>
+<view hidden="{{!is_login}}">
 <view class='list'>
   <view class='identity'>
     <view class='info'>
@@ -79,7 +80,7 @@
       </view>
     </view>
   </view>
-
+</view>
 
 </view>
 
