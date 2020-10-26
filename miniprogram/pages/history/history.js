@@ -1,4 +1,4 @@
-// pages/journey/journry.js
+// pages/history/history.js
 Page({
 
   /**

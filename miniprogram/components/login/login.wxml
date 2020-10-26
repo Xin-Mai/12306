@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <form>
+    <view class="input"><text>用户</text><input placeholder="用户名/邮箱/手机"/></view>
+    <view class="input"><text>密码</text><input placeholder="密码" password="true"/></view>
+    <view class="input"><text>证件号</text><input placeholder="身份证号码后四位"/></view>
+  </form>
+  <view>
+    <button class="roundButton">登 录</button>
+    <view class="group">
+      <button class="miniButton" size="mini">注册</button>
+      <button class="miniButton" size="mini">忘记密码</button>
+    </view>
+  </view>
+</view>

@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
   "usingComponents": {},
   "navigationBarTitleText": "我的12306"
+=======
+  "usingComponents": {
+    "login":"/components/login/login"
+  }
+>>>>>>> main
 }

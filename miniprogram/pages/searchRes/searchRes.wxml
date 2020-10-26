@@ -1,0 +1,4 @@
+<!--pages/searchRes/searchRes.wxml-->
+<view>
+  <ticket from = "{{ticket.from}}" to = "{{ticket.to}}" fromTime = "{{ticket.fromTime}}" bindtap="buy"></ticket>
+</view>

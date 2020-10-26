@@ -1,2 +1,33 @@
 <!--pages/search/search.wxml-->
-<text>pages/search/search.wxml</text>
+<view class="container">
+
+ <image style="width: 100px; height: 100px" src="https://ftp.bmp.ovh/imgs/2020/10/ed6497600c78356c.jpg"></image>
+  
+  <picker mode="region" bindchange="bindRegionChange1" value="{{region1}}" custom-item="{{customItem}}">
+    <view class="picker1">
+      出发站点：{{region1[0]}}，{{region1[1]}}，{{region1[2]}}
+    </view>
+  </picker>
+
+  <button >交换按钮</button>
+
+  <picker mode="region" bindchange="bindRegionChange2" value="{{region2}}" custom-item="{{customItem}}">
+    <view class="picker2">
+      到达站点：{{region2[0]}}，{{region2[1]}}，{{region2[2]}}
+    </view>
+  </picker>
+
+  <picker mode="date" value="{{date}}" start="2020-10-22" end="2030-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      出发时间: {{date}}
+    </view>
+  </picker>
+
+  <checkbox>只看高铁/动车</checkbox>
+  <checkbox>只看学生票</checkbox>
+
+  <button bindtap="search">查询</button>
+
+  <button>联系客服按钮</button>
+  <slot></slot>
+</view>

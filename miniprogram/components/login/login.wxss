@@ -1,0 +1,56 @@
+/* pages/login/login.wxss */
+.input{
+  display: flex;
+  border-width: thin;
+  border-bottom-style:solid;
+  height: 40px;
+  background-color: white;
+  border-bottom-color: #BBBBBB;}
+
+  .input input{
+    align-self: baseline;
+    height: 40px;
+  }
+
+  .input text{
+    height: 40px;
+  }
+  .container form{
+    align-self: center;
+  }
+  .container text{
+    font-size:medium;
+    width: 80px;
+    margin: 10px;
+  }
+  .container{
+    margin: 10px;
+    vertical-align: middle;
+    min-width: max-content;
+  }
+
+  page{
+    background:#f6f6f6;
+  }
+
+  .group{
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .miniButton{
+    font-size: small;
+    font-weight: lighter;
+    color: dodgerblue;
+    width: 50%;
+  }
+
+  .roundButton{
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: small;
+    color: cornsilk;
+    height: 26px;
+    width:60%;
+    background-color: #428ae7;
+  }

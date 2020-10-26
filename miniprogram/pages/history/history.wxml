@@ -1,0 +1,5 @@
+<!--pages/history/history.wxml-->
+<view class="container">
+  <text>暂无历史行程</text>
+</view>
+

@@ -1,0 +1,7 @@
+<!--components/ticket.wxml-->
+<view>
+ <view>始发站：{{from}}</view>
+ <view>终点站：{{to}}</view>
+ <view>起始时间：{{fromTime}}</view>
+ <button>我买了</button>
+</view>

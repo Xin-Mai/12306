@@ -55,14 +55,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    is_login:false,
+    app:getApp(),
+    login:null,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.login=this.selectComponent("#login")
+   
   },
 
   /**
@@ -76,7 +79,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+   
   },
 
   /**

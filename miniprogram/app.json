@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/search/search",
+    "pages/searchRes/searchRes",
     "pages/journey/journey",
+    "pages/history/history",
     "pages/foodorder/foodorder",
     "pages/mine/mine"
   ],

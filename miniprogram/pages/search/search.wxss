@@ -1,1 +1,5 @@
 /* pages/search/search.wxss */
+.picker{
+  padding: 19px;
+  
+}
