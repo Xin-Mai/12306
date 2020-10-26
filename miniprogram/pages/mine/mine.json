@@ -1,16 +1,6 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "usingComponents": {},
+  "usingComponents": {
+    "login":"/components/login/login"
+  },
   "navigationBarTitleText": "我的12306"
-=======
-  "usingComponents": {
-    "login":"/components/login/login"
-  }
->>>>>>> main
-=======
-  "usingComponents": {
-    "login":"/components/login/login"
-  }
->>>>>>> main
 }
