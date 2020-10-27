@@ -5,8 +5,8 @@ Page({
     app:getApp(),
     is_login:getApp().globalData.is_login,
     login:null,
-
-  },
+    
+    },
 
   order:function(options){
     wx.navigateTo({
@@ -59,7 +59,7 @@ Page({
 
   more_service:function(options){
     wx.navigateTo({
-      url: '../more_service/more_service',
+      url: '../moreservice/moreservice',
     })
   },
 
@@ -80,6 +80,7 @@ Page({
   onLoad: function (options) {
     this.login=this.selectComponent("#login");
     console.log("mine onload");
+    
   },
 
   /**
@@ -133,4 +134,5 @@ Page({
   onShareAppMessage: function () {
 
   }
+   
 })

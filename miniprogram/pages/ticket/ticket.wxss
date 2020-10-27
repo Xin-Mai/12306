@@ -23,12 +23,6 @@
   justify-content: center;
 }
 
-.image{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between
-}
-
 .bian{
   display: flex;
   width: 20px
@@ -36,6 +30,6 @@
 
 .ticket_image{
   display:flex;           
-  justify-content: center;        
-  align-items:center;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
 }
