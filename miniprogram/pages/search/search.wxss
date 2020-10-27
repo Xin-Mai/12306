@@ -1,5 +1,77 @@
 /* pages/search/search.wxss */
-.picker{
-  padding: 19px;
+page{
+  background: #fcfcfc;
+}
+
+.container{
+  width: 100%;
+  
+}
+
+.group{
+  display: flex;
+  margin: 20px;
+  min-width: max-content;
+}
+.logo{
+  width:60px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.pickerView{
+  border-color: #eeeeee;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 5px;
+  min-width: max-content;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+}
+.pickerView2{
+  border-color: #eeeeee;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 5px;
+  min-width: max-content;
+  width: 280px;
+  height: 30px;
+  background-color: white;
+}
+.icon{
+  width: 15px;
+  margin-top:5px ;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+.group .myRadio{
+  width: 100%;
+}
+.roundButton{
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: small;
+  color: cornsilk;
+  height: 26px;
+  width:60%;
+  background-color: #428ae7;
+}
+.miniButton{
+  font-size: small;
+  font-weight: lighter;
+  color: dodgerblue;
+  width: 100%;
+}
+.group radio{
+  min-width: max-content;
+  font-size: small;
+  color: gray;
+}
+picker{
+  background-color: white;
+  font-size: small;
   
 }

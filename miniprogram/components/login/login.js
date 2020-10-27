@@ -35,9 +35,12 @@ Component({
       return true;
     },
     checkID(){
-      console.log(this.data.usrId);
-      if(this.data.usrId>999&&this.usrId<10000)
-        return true;
+      //console.log((this.data.usrId>999)&&(this.usrId<10000));
+      if(this.data.usrId>999){
+        if(this.data.usrId<10000)
+        {console.log("pass");
+        this.setData({warn:true});
+        return true;}}
       else{
         this.setData({message:this.data.message3});
         this.setData({warn:false});

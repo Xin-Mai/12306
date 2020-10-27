@@ -1,33 +1,47 @@
 <!--pages/search/search.wxml-->
 <view class="container">
 
- <image style="width: 100px; height: 100px" src="https://ftp.bmp.ovh/imgs/2020/10/ed6497600c78356c.jpg"></image>
+ <image class="logo" mode="aspectFit" src="/images/logo.jpg"></image>
   
-  <picker mode="region" bindchange="bindRegionChange1" value="{{region1}}" custom-item="{{customItem}}">
-    <view class="picker1">
-      出发站点：{{region1[0]}}，{{region1[1]}}，{{region1[2]}}
+ <view>
+   <view class="group">
+    <picker class="pickerView" mode="region" bindchange="bindRegionChange1" value="{{region1}}" custom-item="{{customItem}}">
+      <view>
+        <image class="icon" src="/images/icon/map.png" mode="aspectFit"/>
+      <text>{{region1[1]}}</text>
     </view>
   </picker>
 
-  <button bindtap="change">↑↓</button>
-
+  <button bindtap="change" size="mini"><image class="icon" src="/images/icon/sorting.png" mode="aspectFit"/></button>
   <picker mode="region" bindchange="bindRegionChange2" value="{{region2}}" custom-item="{{customItem}}">
-    <view class="picker2">
-      到达站点：{{region2[0]}}，{{region2[1]}}，{{region2[2]}}
+    <view class="pickerView">
+      <image class="icon" src="/images/icon/map.png" mode="aspectFit"/>
+      {{region2[1]}}
     </view>
   </picker>
 
+   </view>
+  
+  <view class="group">
   <picker mode="date" value="{{date}}" start="2020-10-22" end="2030-09-01" bindchange="bindDateChange">
-    <view class="picker">
-      出发时间: {{date}}
+    <view class="pickerView2">
+    <image class="icon" src="/images/icon/calendar.png" mode="aspectFit"/>
+    {{date}}
     </view>
   </picker>
+  </view>
 
-  <radio>只看高铁/动车</radio>
+  <view class="group">
+    <radio class="myRadio">只看高铁/动车</radio>
   <radio>只看学生票</radio>
+  </view>
+  
 
-  <button bindtap="search">查询</button>
+ </view>
+  
 
-  <button>联系客服</button>
+  <button class="roundButton" bindtap="search">查 询</button>
+
+  <button class="miniButton">联系客服</button>
   <slot></slot>
 </view>
