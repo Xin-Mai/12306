@@ -1,2 +1,16 @@
-<!--pages/signup/signup.wxml-->
-<text>pages/signup/signup.wxml</text>
+<view class="container">
+  <form>
+    <view class="input"><text>用户名</text><input bindinput="usrNameInput" placeholder="含字母、数字或“_” 6-30位"/></view>
+    <view class="input"><text>密码</text><input bindinput="usrPwInput" placeholder="密码" password="true"/></view>
+    <view class="input"><text>密码确认</text><input bindinput=""/></view>
+  </form>
+
+  <form>
+    <view class="input"><text>姓名</text><input bindinput="usrNameInput" placeholder="请输入真实姓名"/></view>
+    <view class="input"><text>国家</text><picker range="{{country }}" value="{{countryIndex}}"></picker></view>
+    <view class="input"><text>证件类型</text><picker range="{{passport}}" value="{{passportIndex}}"><text class="option">{{country[0]}}</text><image src="/images/icon/arrow-right.png" mode="aspectFit" /></picker></view>
+    <view class="input"><text>证件号码</text><input bindinput="usrNameInput"/></view>
+    <view class="input"><text>旅客类型</text><picker range="{{passagerType}}" value="{{passagerIndex}}"><text class="option">{{passagerType[passagerIndex]}}</text></picker></view>
+  </form>
+  
+</view>

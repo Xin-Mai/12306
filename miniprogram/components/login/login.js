@@ -35,15 +35,14 @@ Component({
       return true;
     },
     checkID(){
-      return true;
-      /*if(this.data.usrId>999&&this.usrId<10000)
+      console.log(this.data.usrId);
+      if(this.data.usrId>999&&this.usrId<10000)
         return true;
       else{
-        wx.showToast({
-          title: '请输入身份证后4位',
-        });
-        return false;
-      }*/
+        this.setData({message:this.data.message3});
+        this.setData({warn:false});
+      }
+      return false;
     },
     usrNameInput(e){
 
@@ -52,6 +51,7 @@ Component({
       this.setData({usrPw:e.detail.value});
     },
     usrIdInput(e){
+      
       this.setData({usrId:e.detail.value});
     }
   }

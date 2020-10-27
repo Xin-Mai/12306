@@ -37,7 +37,7 @@
 
     <view class='password_change' bindtap="password_change">
       <view class='xiugaimima'>修改密码</view>
-      <view class='arrow'>></view>
+      <view class='arrow'></view>
     </view>
 
     <view class='depart_line'></view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/signup/signup",
     "pages/search/search",
     "pages/searchRes/searchRes",
     "pages/buy/buy",
@@ -7,7 +8,7 @@
     "pages/history/history",
     "pages/foodorder/foodorder",
     "pages/mine/mine",
-    "pages/signup/signup",
+    
     "pages/forgetpw/forgetpw"
   ],
   "window": {
