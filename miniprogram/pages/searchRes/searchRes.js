@@ -12,10 +12,10 @@ Page({
       toTime : '09:21',
       Id : 'D705',
       time : '12小时0分钟',
-      ifSeat : true,
-      ifHard : true,
-      ifSoft : true,
-      ifNoSeat : true
+      ifSeat : '14张',
+      ifHard : '30张',
+      ifSoft : '6张',
+      ifNoSeat : '7张'
     },
     {
       from : '北京',
@@ -24,10 +24,22 @@ Page({
       toTime : '10:21',
       Id : 'D706',
       time : '12小时0分钟',
-      ifSeat : true,
-      ifHard : true,
-      ifSoft : true,
-      ifNoSeat : true
+      ifSeat : '20张',
+      ifHard : '15张',
+      ifSoft : '17张',
+      ifNoSeat : '6张'
+    },
+    {
+      from : '北京',
+      to : '上海',
+      fromTime : '23:21',
+      toTime : '11:21',
+      Id : 'D707',
+      time : '12小时0分钟',
+      ifSeat : '16张',
+      ifHard : '30张',
+      ifSoft : '5张',
+      ifNoSeat : '35张'
     }
   ]
   },

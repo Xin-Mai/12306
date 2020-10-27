@@ -11,10 +11,10 @@ Component({
         toTime : String,
         Id : String,
         time : String,
-        ifSeat : Boolean,
-        ifHard : Boolean,
-        ifSoft : Boolean,
-        ifNoSeat : Boolean
+        ifSeat : String,
+        ifHard : String,
+        ifSoft : String,
+        ifNoSeat : String
         
   },
 

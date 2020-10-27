@@ -1,7 +1,8 @@
 <!--pages/searchRes/searchRes.wxml-->
 <view>
   <view wx:for="{{ticket}}">
- <ticket from =  "{{item.from}}" to = "{{item.to}}" fromTime = "{{item.fromTime}}" bindtap="buy"></ticket>
-  </view>
- 
+ <ticket from =  "{{item.from}}" to = "{{item.to}}" fromTime = "{{item.fromTime}}"  toTime =  "{{item.toTime}}" Id="{{item.Id}}" time="{{item.time}}" ifSeat="{{item.ifSeat}}" ifSoft="{{item.ifSoft}}" ifHard="{{item.ifHard}}" ifNoSeat = "{{item.ifNoSeat}}" bindtap="buy"></ticket>
+ <view></view>
+ </view>
 </view>
+ 

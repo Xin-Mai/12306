@@ -1,7 +1,17 @@
 <!--components/ticket.wxml-->
-<view>
- <view>始发站：{{from}}</view>
- <view>终点站：{{to}}</view>
- <view>起始时间：{{fromTime}}</view>
- <button bindtap="buy">我买了</button>
+<view class="ticket">
+ <label class="from">始:{{from}}</label>
+ <label class="to">终:{{to}}</label>
+ <label class="fromTime">{{fromTime}}</label>
+ <label class="toTime">{{toTime}}</label>
+ <view class="id">{{Id}}</view>
+ <label class="right">---------></label>
+ <view class="time">{{time}}</view>
+ <label class="divide">-------------------------------------------</label>
+ <view class="ifseat">硬座：{{ifSeat}}</view>
+ <view class="ifsoft">软卧：{{ifSoft}}</view>
+ <view class="ifhard">硬卧：{{ifHard}}</view>
+ <view class="ifNoSeat">无座：{{ifNoSeat}}</view>
+ <button class="buy" size="mini" bindtap="buy">购买</button>
+
 </view>
