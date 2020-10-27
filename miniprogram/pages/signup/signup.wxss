@@ -8,16 +8,21 @@
   font-size: small;
   border-bottom-color: #BBBBBB;}
 
-.input picker{
-    width: 100%;
-    height: 40px;
-    text-align: left;
-    display: flex;
-  }
-
-.option{
-  background-color: red;
+.myPicker{
+  display: flex;
+  height: 40px;
+  width: 100%;
+  vertical-align: middle;
+  /**background-color: dodgerblue;*/
 }
+
+.myPicker text{
+  height: 100%;
+  text-align: center;
+  /**background-color: firebrick;*/
+  width: 100%;
+}
+
 
   .input input{
     align-self: baseline;
@@ -48,4 +53,13 @@ image{
   .container{
     vertical-align: middle;
     min-width: max-content;
+  }
+
+  .roundButton{
+    border-radius: 20px;
+    font-size: small;
+    color: cornsilk;
+    height: 26px;
+    width:60%;
+    background-color: #428ae7;
   }

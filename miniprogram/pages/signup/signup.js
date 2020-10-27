@@ -238,7 +238,16 @@ passportIndex:0,
 passagerIndex:0,
   },
 
-
+sign:function(){
+  const app=getApp();
+  app.setLogin(true);
+  wx.showToast({
+    title: '注册成功',
+  })
+  wx.switchTab({
+    url: '/pages/journey/journey',
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */

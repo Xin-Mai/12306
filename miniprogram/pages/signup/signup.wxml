@@ -2,15 +2,37 @@
   <form>
     <view class="input"><text>用户名</text><input bindinput="usrNameInput" placeholder="含字母、数字或“_” 6-30位"/></view>
     <view class="input"><text>密码</text><input bindinput="usrPwInput" placeholder="密码" password="true"/></view>
-    <view class="input"><text>密码确认</text><input bindinput=""/></view>
+    <view class="input"><text>密码确认</text><input password="true" bindinput=""/></view>
   </form>
 
   <form>
     <view class="input"><text>姓名</text><input bindinput="usrNameInput" placeholder="请输入真实姓名"/></view>
-    <view class="input"><text>国家</text><picker range="{{country }}" value="{{countryIndex}}"></picker></view>
-    <view class="input"><text>证件类型</text><picker range="{{passport}}" value="{{passportIndex}}"><text class="option">{{country[0]}}</text><image src="/images/icon/arrow-right.png" mode="aspectFit" /></picker></view>
+    <view class="input"><text>国家</text><picker class="myPicker" range="{{country}}" value="{{countryIndex}}">
+      <text class="option">{{country[0]}}</text>
+    </picker>
+    <image src="/images/icon/arrow-right.png" mode="aspectFit" />
+  </view>
+    <view class="input">
+      <text>证件类型</text>
+      <picker class="myPicker" range="{{passportType}}" value="{{passportIndex}}">
+        <text class="option">{{passportType[passportIndex]}}</text>
+      </picker>
+      <image src="/images/icon/arrow-right.png" mode="aspectFit" />
+    </view>
     <view class="input"><text>证件号码</text><input bindinput="usrNameInput"/></view>
-    <view class="input"><text>旅客类型</text><picker range="{{passagerType}}" value="{{passagerIndex}}"><text class="option">{{passagerType[passagerIndex]}}</text></picker></view>
+    <view class="input">
+      <text>旅客类型</text>
+      <picker  class="myPicker" range="{{passagerType}}" value="{{passagerIndex}}">
+      <text class="">{{passagerType[passagerIndex]}}</text>
+    </picker>
+    <image src="/images/icon/arrow-right.png" mode="aspectFit" />
+  </view>
   </form>
-  
+  <form>
+    <view class="input">
+      <text>手机号码</text>
+    </view>
+    <view class="input"><text>电子邮箱</text></view>
+  </form>
+  <button class="roundButton" bindtap="sign">注 册</button>
 </view>

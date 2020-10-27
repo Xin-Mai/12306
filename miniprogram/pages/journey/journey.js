@@ -46,9 +46,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    /*if(this.data.is_login!=getApp().globalData.is_login){
-      this.data.is_login=getApp().globalData.is_login;
-    }*/
+    if(this.data.is_login!=getApp().globalData.is_login)
+      this.setData({is_login:getApp().globalData.is_login});
   },
 
   /**
