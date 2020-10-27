@@ -73,5 +73,6 @@ page{
 picker{
   background-color: white;
   font-size: small;
+  align-self: center;
   
 }

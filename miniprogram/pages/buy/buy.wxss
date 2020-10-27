@@ -1,1 +1,56 @@
 /* miniprogram/pages/buy.wxss */
+.container{
+  width: 100%;
+}
+form{
+  align-self: center;
+  margin-top: 40px;
+}
+.input{
+  display: flex;
+  border-width: thin;
+  border-bottom-style:solid;
+  height: 40px;
+  background-color: white;
+  border-bottom-color: #BBBBBB;}
+
+  .input input{
+    align-self: baseline;
+    height: 40px;
+  }
+  .input text{
+    width: 80px;
+    align-self: center;
+    margin-left: 5px;
+  }
+
+.roundButton{
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: small;
+  color: cornsilk;
+  height: 30px;
+  text-align: center;
+  background-color: #428ae7;
+}
+.roundButton1{
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: small;
+  color: cornsilk;
+  height: 30px;
+  text-align: center;
+  background-color:#bbbbbb;
+}
+
+.group{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.radioItem{
+  display: flex;
+  width: 25%;
+  font-size: small;
+}
