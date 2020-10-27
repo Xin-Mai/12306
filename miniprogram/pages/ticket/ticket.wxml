@@ -11,7 +11,7 @@
   <view class='image'>
     <view class='bian'></view>
     <view class="ticket_image">
-    <image src="/images/ticket.png" mode="aspectFit"></image>
+    <image src="https://s1.ax1x.com/2020/10/27/BlmQv4.png" mode="aspectFit"></image>
     </view>
     <view class='bian'></view>
   </view>

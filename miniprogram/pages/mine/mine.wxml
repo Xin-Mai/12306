@@ -3,13 +3,17 @@
   <login  bind:loginSuccess="loginSuccess"></login>
 </view>
 <view hidden="{{!is_login}}">
+
+  
 <view class='list'>
   <view class='identity'>
-    <view class='info'>
-      <view class='name'>name</view>
-      <view class='id'>id</view>
+    <view class='touxiang'> 
+      <image src="https://s1.ax1x.com/2020/10/27/BlEgcd.jpg" mode="aspectFit"></image>
     </view>
-    <view class='func' bindtap="exit">退出</view>    
+    <view class='info'>
+      <view class='name'>王昊旻</view>
+      <view class='id'>42050*********3</view>
+    </view>    
   </view>
 
   <view class="blank"></view>
@@ -45,7 +49,7 @@
     <view class='tied_account' bindtap="account_tied">
       <view class='bangdingzhanghao'>绑定账号</view>
       <view class='who'>
-        <view class='weixin_name'>weixin_name</view>
+        <view class='weixin_name'>Marshmello</view>
         <view class='arrow'>></view>
       </view>
     </view>
